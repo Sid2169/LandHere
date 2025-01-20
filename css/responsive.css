@@ -1,15 +1,30 @@
 @media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
+    .hero h1 {
+        font-size: 2.5rem;
     }
 
-    .hero-content h1 {
-        font-size: 2rem;
+    .hero p {
+        font-size: 1rem;
     }
 
-    .service-cards {
+    .cta-button {
+        padding: 12px 25px;
+    }
+
+    .services .service-cards {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .contact form {
+        padding: 0 10px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
     }
 }
